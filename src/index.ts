@@ -34,7 +34,7 @@ export class MultiBatch implements Batchable {
 	set(
 		documentRef: firestore.DocumentReference<any>,
 		data: firestore.UpdateData,
-		options?: firestore.SetOptions
+		options?: FirebaseFirestore.SetOptions
 	) {
 		this.setBatch();
 		if (options) {
