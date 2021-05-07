@@ -1,0 +1,11 @@
+{
+  "name": "firestore-multi-batch",
+  "version": "1.0.0",
+  "description": "It allows using firestore batch write with more than 500 operations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Rak",
+  "license": "MIT"
+}
