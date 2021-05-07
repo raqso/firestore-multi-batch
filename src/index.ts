@@ -1,4 +1,4 @@
-import { firestore } from "../../types/firebase";
+import { firestore } from "firebase-admin";
 import asyncPool from "tiny-async-pool";
 
 const OPERATIONS_LIMIT = 500;

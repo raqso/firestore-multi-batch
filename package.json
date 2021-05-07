@@ -19,5 +19,8 @@
   },
   "dependencies": {
     "tiny-async-pool": "^1.2.0"
+  },
+  "peerDependencies": {
+    "firebase-admin": "^9"
   }
 }
